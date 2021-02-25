@@ -7,6 +7,10 @@ public class Program {
 	public static void main(String[] args) {
 		List<Integer> myInts = Arrays.asList(5, 2, 10);
 		printList(myInts);
+		
+		System.out.println();
+		List<String> myStr = Arrays.asList("Maria","Alex","Bob");
+		printList(myStr);
 	}
 
 	public static void printList(List<?> list) {
